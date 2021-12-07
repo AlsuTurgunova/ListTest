@@ -27,9 +27,12 @@ public class main {
 
         switch (choice) {
             case 1: {
-                test = new ListTest(10000);
+                test = new ListTest(1000);
                 break;
             }
+
+
+
             case 2: {
                 test = new ListTest(20000);
                 break;
