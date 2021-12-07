@@ -29,9 +29,6 @@ public class main {
                 test = new ListTest(1000);
                 break;
             }
-
-
-
             case 2: {
                 test = new ListTest(20000);
                 break;
