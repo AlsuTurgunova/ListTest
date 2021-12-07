@@ -14,10 +14,6 @@ public class main {
         while (check.equals("Y")  || check.equals("y")){
         do {
             System.out.println("Please, enter a number from 1-4");
-
-
-
-
             while (!scanner.hasNextInt()) {
                 System.out.println("That not a number!");
                 System.out.println("Please, enter a number from 1-4");
