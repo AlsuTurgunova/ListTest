@@ -33,6 +33,7 @@ public class main {
                 test = new ListTest(20000);
                 break;
             }
+
             case 3: {
                 test = new ListTest(100000);
                 break;

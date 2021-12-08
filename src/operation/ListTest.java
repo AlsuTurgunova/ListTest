@@ -16,6 +16,7 @@ public class ListTest {
     /**
      * Results table
      */
+
     private String[][] resultsTable;
     /**
      * The beginning of the countdown
