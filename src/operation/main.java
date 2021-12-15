@@ -7,7 +7,7 @@ public class main {
     public static void main(String[] args){
         ListTest test;
         System.out.println("Select how many times the collection methods will be called");
-        System.out.println("1. 10000 \n2. 20000 \n3. 100000 \n4. Choose by yourself");
+        System.out.println("1. 50000 \n2. 80000 \n3. 100000 \n4. Choose by yourself");
         int choice;
         Scanner scanner = new Scanner(System.in);
         String check= "Y";
@@ -26,14 +26,13 @@ public class main {
 
         switch (choice) {
             case 1: {
-                test = new ListTest(1000);
+                test = new ListTest(50000);
                 break;
             }
             case 2: {
-                test = new ListTest(20000);
+                test = new ListTest(80000);
                 break;
             }
-
             case 3: {
                 test = new ListTest(100000);
                 break;
